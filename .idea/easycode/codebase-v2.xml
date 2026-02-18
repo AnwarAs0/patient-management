@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/modal/Patient.java;D:/Full-Stack-Project/patient-management/patient-service/src/main/java/com/pm/patientservice/PatientServiceApplication.java;D:/Full-Stack-Project/patient-management/patient-service/src/test/java/com/pm/patientservice/PatientServiceApplicationTests.java;D:/Full-Stack-Project/patient-management/patient-service/HELP.md" />
+  </component>
+</project>

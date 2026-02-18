@@ -1,0 +1,16 @@
+### POST Create a patient
+POST http://lb-1e912f2d.elb.localhost.localstack.cloud:4004/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Anwarsha",
+  "email": "anwarsha.kafka32@gmail.com",
+  "address": "123 main street",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "1995-09-09"
+}
+
+
+
+###
