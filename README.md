@@ -1,4 +1,3 @@
-
 <h1 align="center">🏥 Enterprise Patient Management System</h1>
 
 <p align="center">
@@ -58,46 +57,46 @@ It demonstrates:
 
 ## 1️⃣ Patient Service
 
-- CRUD operations
-- Layered Architecture (Controller → Service → Repository → DTO)
-- Kafka event publishing
-- gRPC communication with Billing Service
+- CRUD operations  
+- Layered Architecture (Controller → Service → Repository → DTO)  
+- Kafka event publishing  
+- gRPC communication with Billing Service  
 
 ---
 
 ## 2️⃣ Authentication Service
 
-- User registration & login
-- JWT token generation
-- Token validation endpoint
-- PostgreSQL user storage
-- OAuth2-style security
+- User registration & login  
+- JWT token generation  
+- Token validation endpoint  
+- PostgreSQL user storage  
+- OAuth2-style security  
 
 ---
 
 ## 3️⃣ API Gateway
 
-- Built with Spring Cloud Gateway
-- Centralized routing
-- JWT validation filter
-- Secured endpoints
-- Request forwarding
+- Built with Spring Cloud Gateway  
+- Centralized routing  
+- JWT validation filter  
+- Secured endpoints  
+- Request forwarding  
 
 ---
 
 ## 4️⃣ Billing Service (gRPC)
 
-- Protocol Buffers
-- gRPC server/client
-- High-performance internal communication
+- Protocol Buffers  
+- gRPC server/client  
+- High-performance internal communication  
 
 ---
 
 ## 5️⃣ Analytics Service
 
-- Kafka consumer
-- Listens to Patient Created events
-- Asynchronous event processing
+- Kafka consumer  
+- Listens to Patient Created events  
+- Asynchronous event processing  
 
 ---
 
@@ -107,10 +106,10 @@ It demonstrates:
   <img src="https://miro.medium.com/max/1400/1*6sYfXGgAvFp8Z_HKbjrKMg.png" width="700"/>
 </p>
 
-- JWT authentication
-- Token issued by Auth Service
-- API Gateway validates token
-- 401 for unauthorized requests
+- JWT authentication  
+- Token issued by Auth Service  
+- API Gateway validates token  
+- 401 returned for unauthorized requests  
 
 ---
 
@@ -124,11 +123,7 @@ It demonstrates:
 
 ---
 
-# 🐳 Dockerized Environment
-
-<p align="center">
-  <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" width="120"/>
-</p>
+# 🐳 Containerized Environment
 
 - Each microservice has its own Dockerfile  
 - Runs inside isolated containers  
@@ -138,10 +133,6 @@ It demonstrates:
 ---
 
 # ☁️ Infrastructure as Code (AWS CDK)
-
-<p align="center">
-  <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" width="120"/>
-</p>
 
 Provisioned Resources:
 
@@ -153,16 +144,12 @@ Provisioned Resources:
 
 Deployment:
 
-- LocalStack (AWS simulation)
-- CloudFormation auto-generated via CDK
+- LocalStack (AWS simulation)  
+- CloudFormation auto-generated via CDK  
 
 ---
 
 # 🧪 Testing Strategy
-
-<p align="center">
-  <img src="https://junit.org/junit5/assets/img/junit5-logo.png" width="120"/>
-</p>
 
 ### Tools Used
 
@@ -205,35 +192,23 @@ enterprise-patient-management/
 ├── billing-service/
 ├── analytics-service/
 ├── api-gateway/
-├── infrastructure-cdk/
-├── docker-compose.yml
+├── infrastructure/
+├── api-requests/
+├── grpc-requests/
+├── integration-tests/
 └── README.md
 ```
 
 ---
 
-# 📊 System Flow
-
-1. User logs in → JWT generated  
-2. Client calls API Gateway  
-3. Gateway validates token  
-4. Request routed to Patient Service  
-5. Patient Service:
-   - Stores in PostgreSQL  
-   - Calls Billing via gRPC  
-   - Publishes Kafka event  
-6. Analytics consumes event  
-
----
-
 # 🎯 What This Project Demonstrates
 
-- Enterprise-level microservices
-- Secure distributed systems
-- Event-driven architecture
-- Cloud-native deployment
-- Infrastructure automation
-- Production-ready testing
+- Enterprise-level microservices architecture  
+- Secure distributed systems  
+- Event-driven architecture  
+- Cloud-native deployment principles  
+- Infrastructure automation  
+- Production-ready testing  
 
 ---
 
@@ -246,6 +221,5 @@ Spring Boot | Kafka | AWS | Docker | Microservices
 ---
 
 <p align="center">
-⭐ If you found this project useful, please consider giving it a star!
+⭐ If you found this project useful, consider giving it a star.
 </p>
-
