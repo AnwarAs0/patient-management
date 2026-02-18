@@ -36,9 +36,6 @@ It demonstrates:
 
 # 🏗 System Architecture
 
-<p align="center">
-  <img src="https://miro.medium.com/max/1400/1*9JqkQ7K2BEm90LkAMPxQYg.png" width="800"/>
-</p>
 
 ### 🔹 Core Components
 
@@ -101,10 +98,6 @@ It demonstrates:
 ---
 
 # 🔐 Security Architecture
-
-<p align="center">
-  <img src="https://miro.medium.com/max/1400/1*6sYfXGgAvFp8Z_HKbjrKMg.png" width="700"/>
-</p>
 
 - JWT authentication  
 - Token issued by Auth Service  
