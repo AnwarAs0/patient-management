@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/2785/2785819.png" width="120" />
-</p>
 
 <h1 align="center">🏥 Enterprise Patient Management System</h1>
 
@@ -211,34 +208,6 @@ enterprise-patient-management/
 ├── infrastructure-cdk/
 ├── docker-compose.yml
 └── README.md
-```
-
----
-
-# 🚀 How to Run
-
-### 1️⃣ Start Infrastructure
-
-```bash
-docker-compose up -d
-```
-
-### 2️⃣ Build Services
-
-```bash
-mvn clean install
-```
-
-### 3️⃣ Authenticate
-
-```
-POST /auth/login
-```
-
-Add header:
-
-```
-Authorization: Bearer <token>
 ```
 
 ---
